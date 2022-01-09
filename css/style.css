@@ -25,6 +25,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .logo-span {
   font-family: raleway, sans-serif;
@@ -135,6 +136,7 @@ body {
   font-weight: 700;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .footer-ul {
   font-size: 14px;
