@@ -13,6 +13,7 @@ body {
     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #ffffff;
   font-size: 14px;
+  font-weight: 400;
 }
 .list {
   list-style: none;
@@ -23,7 +24,6 @@ body {
   color: var(--main-text-color);
   font-size: 26px;
   line-height: 1.2;
-  font-weight: 400;
   letter-spacing: 0.03em;
 }
 .logo-span {
@@ -31,7 +31,6 @@ body {
   color: var(--acent-color);
   font-size: 26px;
   line-height: 1.2;
-  font-weight: 400;
   letter-spacing: 0.03em;
 }
 .nav .link {
@@ -71,17 +70,17 @@ body {
 .hero-button {
   color: var(--white-color);
   background-color: var(--main-herofooter-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 /* Section - feature */
 .feature-list .title {
-  font-weight: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
@@ -92,7 +91,7 @@ body {
 }
 /* section what we do */
 .section .what-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
@@ -104,7 +103,7 @@ body {
   background-color: var(--secondary-bcg-color);
 }
 .section-team .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
@@ -146,15 +145,28 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--acent-color);
+}
 .footer-email {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.footer-email:hover,
+.footer-email:focus {
+  color: var(--acent-color);
+}
+
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--acent-color);
 }
 
 /* porfolio section button */
@@ -164,6 +176,7 @@ body {
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .section-project h2 {
   font-size: 18px;
@@ -174,7 +187,6 @@ body {
 .section-project p {
   font-size: 16px;
   line-height: 1.9;
-  font-weight: 400;
   color: var(--second--text-color);
   letter-spacing: 0.03em;
 }
